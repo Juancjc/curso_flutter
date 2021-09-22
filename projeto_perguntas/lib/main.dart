@@ -20,7 +20,15 @@ class PerguntaApp extends StatelessWidget {
         body: Column(
           children: [
             Text(perguntas.elementAt(0)),
-            Text(perguntas[1])
+            Text(perguntas[1]),
+            RaisedButton(
+              child: Text('Resposta 1'),
+              onPressed: null,
+            ),
+            RaisedButton(
+              child: Text('Resposta 2'),
+              onPressed: null,
+            ),
           ],
         ),
       ),
